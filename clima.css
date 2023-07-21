@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image:url("https://source.unsplash.com/1600x900/?landscape");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caixa_maior{
+    border-radius: 28px;
+    padding: 20px ;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.824);
+    font-size: 30px;
+    color: aliceblue;
+
+}
+
+.input_city{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(190, 190, 194, 0.446);
+    color: aliceblue;
+    width: 320px;
+
+}
+
+.city{
+    text-align: center;
+
+}
+
+.caixa_media{
+    margin-top: 30px;
+}
+
+.caixa_menor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+ 
+}
+
+.img_prev{
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    margin-right: 20px;
+    
+}
+
+.texto_prev{
+text-align: center;
+text-transform: capitalize;
+}
+
+.umidade{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.temp{
+    font-size: 35px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+ 
+.clima_button{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    width: 70px;
+    float: right;
+    margin-top: 5px;
+} 
+
